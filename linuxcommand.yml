@@ -1,0 +1,8 @@
+---
+- hosts: webservers
+
+  tasks:
+    - name: run command through ansible
+      command: ls
+      
+
